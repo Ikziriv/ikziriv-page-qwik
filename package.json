@@ -1,44 +1,45 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "App with Routing built-in (recommended)",
-  "engines": {
-    "node": ">=15.0.0"
-  },
-  "private": true,
-  "scripts": {
-    "build": "qwik build",
-    "build.client": "vite build",
-    "build.preview": "vite build --ssr src/entry.preview.tsx",
-    "build.server": "vite build -c adaptors/cloudflare-pages/vite.config.ts",
-    "build.types": "tsc --incremental --noEmit",
-    "dev": "vite --mode ssr",
-    "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
-    "fmt": "prettier --write .",
-    "fmt.check": "prettier --check .",
-    "lint": "eslint src/**/*.ts*",
-    "preview": "qwik build preview && vite preview --open",
-    "serve": "wrangler pages dev ./dist",
-    "start": "vite --open --mode ssr",
-    "qwik": "qwik"
-  },
-  "devDependencies": {
-    "@builder.io/partytown": "^0.7.0",
-    "@builder.io/qwik": "0.12.0",
-    "@builder.io/qwik-city": "0.0.118",
-    "@types/eslint": "8.4.8",
-    "@types/node": "latest",
-    "@typescript-eslint/eslint-plugin": "5.41.0",
-    "@typescript-eslint/parser": "5.41.0",
-    "autoprefixer": "10.4.11",
-    "eslint": "8.26.0",
-    "eslint-plugin-qwik": "0.12.0",
-    "node-fetch": "3.2.10",
-    "postcss": "^8.4.16",
-    "prettier": "2.7.1",
-    "tailwindcss": "^3.1.8",
-    "typescript": "4.8.4",
-    "vite": "3.2.0",
-    "vite-tsconfig-paths": "3.5.0",
-    "wrangler": "beta"
-  }
+    "name": "my-qwik-basic-starter",
+    "description": "App with Routing built-in (recommended)",
+    "engines": {
+        "node": ">=15.0.0"
+    },
+    "private": true,
+    "scripts": {
+        "build": "qwik build",
+        "build.client": "vite build",
+        "build.preview": "vite build --ssr src/entry.preview.tsx",
+        "build.server": "vite build -c adaptors/cloudflare-pages/vite.config.ts",
+        "build.types": "tsc --incremental --noEmit",
+        "dev": "vite --mode ssr",
+        "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+        "fmt": "prettier --write .",
+        "fmt.check": "prettier --check .",
+        "lint": "eslint src/**/*.ts*",
+        "preview": "qwik build preview && vite preview --open",
+        "serve": "wrangler pages dev ./dist",
+        "start": "vite --open --mode ssr",
+        "qwik": "qwik"
+    },
+    "devDependencies": {
+        "@builder.io/partytown": "^0.7.0",
+        "@builder.io/qwik": "0.12.0",
+        "@builder.io/qwik-city": "0.0.118",
+        "@types/eslint": "8.4.8",
+        "@types/node": "latest",
+        "@typescript-eslint/eslint-plugin": "5.41.0",
+        "@typescript-eslint/parser": "5.41.0",
+        "autoprefixer": "10.4.11",
+        "eslint": "8.26.0",
+        "eslint-plugin-qwik": "0.12.0",
+        "node-fetch": "3.2.10",
+        "postcss": "^8.4.16",
+        "prettier": "2.7.1",
+        "tailwindcss": "^3.1.8",
+        "typescript": "4.8.4",
+        "vite": "3.2.0",
+        "vite-imagetools": "^4.0.11",
+        "vite-tsconfig-paths": "3.5.0",
+        "wrangler": "beta"
+    }
 }

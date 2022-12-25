@@ -19,6 +19,7 @@ export default component$(() => {
       <head>
         <meta charSet="utf-8" />
         <link rel="manifest" href="/manifest.json" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
         <RouterHead />
         <QwikPartytown forward={['dataLayer.push']} />;
       </head>
